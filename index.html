@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- Link Fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+  <!-- Title -->
+  <title>Quiz Project</title>
+</head>
+<body>
+  
+  <!-- Start Quiz Btn -->
+  <section class="start-btn">
+    <button class="btn">Testni boshlash!</button>    
+  </section>
+  <!-- /Start Quiz Btn -->
+  
+  <!-- Info Box -->
+  <section class="info-box">
+    <div class="card">
+      <div class="card-header">
+        <span>Testni boshlash qoidalari!</span>
+      </div>
+      <div class="card-body">
+        <p class="card-text">1. Har bir savol uchun atigi <span>15 soniya</span> vaqtingiz bo'ladi.</p>
+        <p class="card-text">2. Javobingizni tanlaganingizdan so‘ng, uni ortga qaytarib bo‘lmaydi.</p>
+        <p class="card-text">3. Vaqt tugashi bilan hech qanday variantni tanlay olmaysiz.</p>
+        <p class="card-text">4. Siz belgilayotganda Testdan chiqa olmaysiz.</p>
+        <p class="card-text">5. To'g'ri javoblaringiz asosida ball olasiz.</p>
+      </div>
+      <div class="card-footer">
+        <button class="btn quit btn-outline-primary">Testdan chiqish</button>
+        <button class="btn restart btn-primary">Davom etish</button>
+      </div>
+    </div>
+  </section>
+  <!-- /Info-box -->
+  
+  <!-- Quiz Box -->
+  <section class="quiz-box">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-title">Olg'a!</div>
+        <div class="card-header-timer">Time Left <span>15</span></div>
+        <div class="time-line"></div>
+      </div>
+      <div class="card-body">
+        <div class="card-title">
+          <!-- HTML so'zi nimani anglatadi? -->
+        </div>
+        <div class="quiz-list">
+          <!-- <p class="card-text">Hyper Text Preprocessor <span><i class="fas fa-check"></i></span></p>
+          <p class="card-text">Hyper Text Markup Language <span><i class="fas fa-times"></i></span></p>
+          <p class="card-text">Hyper Text Multiple Language</p>
+          <p class="card-text">Hyper Tool Multi Language </p> -->
+        </div>
+      </div>
+      <div class="card-footer">
+        <p>
+          <!-- <span>1</span> of <span>5</span> questions -->
+        </p>
+        <button class="btn btn-primary">Keyingi test</button>
+      </div>
+    </div>
+  </section>
+  <!-- /Quiz Box -->
+  
+  <!-- Result Box -->
+  <section class="result-box">
+    <div class="icon">
+      <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete-text">You've completed the Quiz!</div>
+    <div class="score-text">
+      <!-- <span>and sorry, You got only <p>2</p> out of <p>5</p></span> -->
+    </div>
+    <div class="buttons">
+      <button class="restart btn btn-primary">Replay quiz</button>
+      <button class="quit btn btn-outline-primary">Quit Quiz</button>
+    </div>
+  </section>
+  <!-- Result Box -->
+  
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="/js/questions.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
